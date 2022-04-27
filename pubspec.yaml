@@ -1,0 +1,173 @@
+name: diyapp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  dartz: ^0.10.0-nullsafety.2
+  dio: ^4.0.0
+  encrypt: ^5.0.0
+  external_app_launcher: 2.0.2 
+  #store docs 
+  cloud_firestore: ^3.1.12
+  #auth
+  firebase_core: ^1.10.6
+  firebase_auth: ^3.3.4
+  equatable: ^2.0.3
+  flutter_bloc: ^7.0.0
+  flutter_localized_locales: ^2.0.1
+  flutter_secure_storage: ^5.0.2
+  freezed_annotation: ^0.14.1
+  flutter_hooks: ^0.16.0
+  flutter_svg: ^0.22.0
+  get_it: ^7.1.3
+  image_picker: ^0.7.5
+  injectable: ^1.4.0
+  intl: ^0.17.0
+  sprintf: ^6.0.0
+  jwt_decoder: ^2.0.1
+  local_auth: ^1.1.5
+  material_design_icons_flutter: ^5.0.5955-rc.1
+  nil: ^1.1.1
+  percent_indicator: ^3.3.0-nullsafety.1
+  shared_preferences: ^2.0.12
+  smooth_page_indicator: ^0.3.0-nullsafety.0
+  url_launcher: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.0
+  build_runner: ^2.0.3
+  freezed: ^0.14.1+3
+  injectable_generator: ^1.4.0
+  json_serializable: ^5.0.0
+  mockito: ^5.0.7
+  retrofit_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - lang/
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Thin.ttf
+          weight: 100
+        - asset: fonts/RobotoMono-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: fonts/RobotoMono-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/RobotoMono-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: fonts/RobotoMono-Italic.ttf
+          style: italic
+        - asset: fonts/RobotoMono-Light.ttf
+          weight: 300
+        - asset: fonts/RobotoMono-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Medium.ttf
+          weight: 500
+        - asset: fonts/RobotoMono-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/RobotoMono-SemiBold.ttf
+          weight: 600
+        - asset: fonts/RobotoMono-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: fonts/RobotoMono-Bold.ttf
+          weight: 700
+        - asset: fonts/RobotoMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/RobotoMono-Thin.ttf
+          weight: 100
+        - asset: fonts/RobotoMono-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: fonts/RobotoMono-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/RobotoMono-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: fonts/RobotoMono-Italic.ttf
+          style: italic
+        - asset: fonts/RobotoMono-Light.ttf
+          weight: 300
+        - asset: fonts/RobotoMono-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/RobotoMono-Regular.ttf
+        - asset: fonts/RobotoMono-Medium.ttf
+          weight: 500
+        - asset: fonts/RobotoMono-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/RobotoMono-SemiBold.ttf
+          weight: 600
+        - asset: fonts/RobotoMono-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: fonts/RobotoMono-Bold.ttf
+          weight: 700
+        - asset: fonts/RobotoMono-BoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Thin.ttf
+          weight: 100
+        - asset: fonts/Lato-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: fonts/Lato-Italic.ttf
+          style: italic
+        - asset: fonts/Lato-Light.ttf
+          weight: 300
+        - asset: fonts/Lato-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/Lato-Regular.ttf
+          style: italic
+        - asset: fonts/Lato-Bold.ttf
+          weight: 700
+        - asset: fonts/Lato-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/Lato-Black.ttf
+          weight: 900
+        - asset: fonts/Lato-BlackItalic.ttf
+          weight: 900
+          style: italic
