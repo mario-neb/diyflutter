@@ -4,8 +4,7 @@ Tech: Flutter project.
 
 Important: You need to add your own firebase configuration files inside ios and android directories.
 
-
-![DIY Demo GIF](assets/gifs/diyappdemo.gif)
+<img src="assets/gifs/diyappdemo.gif" width="300" height="600"/>
 
 ## Getting Started
 
